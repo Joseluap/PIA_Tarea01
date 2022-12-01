@@ -1,7 +1,7 @@
 
 # Crear archivo txt Python
 
-def createFile(content, path = 'files/Hola_mundo.txt'):
+def createFile(content, path = 'files/file.txt'):
 	with open(path, 'w') as file:
 		file.write(content)
 
